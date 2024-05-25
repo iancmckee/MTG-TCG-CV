@@ -263,7 +263,7 @@ while True:
     imgCanny = cv2.Canny(imgGray, threshold1, threshold2)
     kernel = np.ones((5, 5), np.uint8)
     imgDil = cv2.dilate(imgCanny, kernel, iterations=1)
-    cv2.Canny()
+
     getContours(imgDil, imgContour, img, imgConts, setMap)
 
     imgStack = stackImages(0.8, ([img, imgGray, imgCanny],
