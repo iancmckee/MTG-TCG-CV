@@ -12,7 +12,7 @@ setup your virtual env by running `pip install -r requirements.txt` from the bas
 You'll have to install tesseract onto your machine, I've downloaded it from [this source for windows](https://github.com/UB-Mannheim/tesseract/wiki)
 
 ## How to use
-The system works best with a high contract background from the cards. The logic is that it just parses for the top 
+The system works best with a high contrast background from the cards. The logic is that it just parses for the top 
 portion of the card and reads the text, then matches it with the card with the most similar text.
 
 The system will start up and identify any camera's you have accessible on your system. If there's more than one camera 
